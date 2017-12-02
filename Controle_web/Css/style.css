@@ -1,0 +1,201 @@
+
+
+body {
+  padding: 1em;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #b9b9b9;
+  background-color: #e3e3e3;
+}
+h1{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: progress;
+  padding: 12px;
+  border: none;
+  font: italic normal bold 48px/1 "alegreya", Helvetica, sans-serif;
+  color: #a0352b;
+  text-align: center;
+  text-indent: 5px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 9px;
+  white-space: pre-line;
+  word-spacing: 8px;
+  background: url("http://enjoycss.com/bg-img/default/3_6.png");
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: 17px 2px 2px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 17px 2px 2px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 2px 1px 2px rgba(0,0,0,0.5) ;
+  -webkit-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 10ms;
+  transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035) 10ms;
+}
+h4 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: progress;
+    padding: 12px;
+    border: none;
+    font: italic normal bold 48px/1 "amaranth", Helvetica, sans-serif;
+    color: #1e1a1a;
+    text-align: center;
+    text-indent: 5px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    letter-spacing: 9px;
+    white-space: pre-line;
+    word-spacing: 8px;
+  
+  }
+
+input,
+input[type="radio"] + label,
+
+select option,
+select {
+  width: 40%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+
+}
+
+input[type="submit"]{
+  background: #c0d0db;
+  background-image: -webkit-linear-gradient(top, #c0d0db, #11689e);
+  background-image: -moz-linear-gradient(top, #c0d0db, #11689e);
+  background-image: -ms-linear-gradient(top, #c0d0db, #11689e);
+  background-image: -o-linear-gradient(top, #c0d0db, #11689e);
+  background-image: linear-gradient(to bottom, #c0d0db, #11689e);
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 31px;
+  padding: 8px 10px 8px 15px;
+  border: solid #000000 16px;
+  text-decoration: none;
+}
+input[type="submit"]:hover {
+  background: #990abd;
+  background-image: -webkit-linear-gradient(top, #990abd, #3498db);
+  background-image: -moz-linear-gradient(top, #990abd, #3498db);
+  background-image: -ms-linear-gradient(top, #990abd, #3498db);
+  background-image: -o-linear-gradient(top, #990abd, #3498db);
+  background-image: linear-gradient(to bottom, #990abd, #3498db);
+  text-decoration: none;
+}
+
+input[type="radio"] + label:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+input[type="radio"] + label:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+input[type="radio"] + label i {
+  padding-right: 0.4em;
+}
+input[type="radio"]:checked + label,
+
+select:focus,
+select:active {
+  background-color: #ad3b27;
+  color: #fff;
+  border-color: #ceb31c;
+}
+
+
+select {
+  height: 3.4em;
+  line-height: 2;
+}
+select:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+select:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+select:focus,
+select:active {
+  outline: 0;
+}
+select option {
+  background-color: #e67112;
+  color: #fff;
+}
+
+@media only screen and (max-width: 540px) {
+  .col-half {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+input[type="button"] {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 150px;
+  height: 42px;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  font: normal 20px/normal "Antic", Helvetica, sans-serif;
+  color: rgb(58, 13, 13);
+  text-decoration: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(190, 3, 3, 0.4);
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+input[type="button"]:hover {
+  color: rgb(165, 61, 61);
+  background: rgba(182, 74, 74, 0.4);
+  -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+input[type="button"]:focus {
+  width: 213px;
+  cursor: default;
+  padding: -13px 20px 0;
+  color: rgb(150, 28, 28);
+  -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
